@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 ARG GODOT_VERSION="4.3"
-ARG RELEASE_NAME="dev6"
+ARG RELEASE_NAME="beta1"
 ARG SUBDIR=""
 ARG GODOT_TEST_ARGS=""
 ARG GODOT_PLATFORM="linux.x86_64"
